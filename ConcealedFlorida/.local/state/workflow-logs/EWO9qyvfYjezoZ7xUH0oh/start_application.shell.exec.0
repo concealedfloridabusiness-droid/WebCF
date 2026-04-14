@@ -1,0 +1,45 @@
+
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+[1G[0K7:58:36 AM [express] serving on port 5000
+Browserslist: browsers data (caniuse-lite) is 18 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+
+A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:58:52 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Header.tsx, /src/index.css?v=1DeLf64_xHqEydNbMVqtQ[22m
+7:58:57 AM [express] GET /api/news/channels 200 in 2ms :: {"channels":[{"id":"UCfGMSLRjSoxbkSIi8i3jf…
+7:58:57 AM [express] GET /api/news/channel/ArmedScholar 200 in 104ms :: {"videos":[{"id":"v4C1YYtCCh…
+7:58:57 AM [express] GET /api/news/channel/AmericaUncovered 200 in 108ms :: {"videos":[{"id":"wYdveQ…
+7:58:57 AM [express] GET /api/news/channel/BrandonHerrera 200 in 154ms :: {"videos":[{"id":"NE-BZmgr…
+7:58:57 AM [express] GET /api/news/channel/USLawShield 200 in 225ms :: {"videos":[{"id":"HRLqBptMe94…
+7:58:57 AM [express] GET /api/news/channel/ActiveSelfProtection 200 in 80ms :: {"videos":[{"id":"yHb…
+7:58:57 AM [express] GET /api/news/channel/dirty-civilian 200 in 98ms :: {"videos":[{"id":"cofxV9RvI…
+7:58:57 AM [express] GET /api/news/channel/theGunCollective 200 in 106ms :: {"videos":[{"id":"C0EidC…
+7:58:57 AM [express] GET /api/news/channel/ColionNoir 200 in 289ms :: {"videos":[{"id":"b3p8Xk04uvc"…
+7:58:57 AM [express] GET /api/news/channel/GunOwnersofAmerica 200 in 319ms :: {"videos":[{"id":"IJrE…
+7:58:57 AM [express] GET /api/news/channel/falconclaw_ 200 in 187ms :: {"videos":[{"id":"mkNKCPcsiAM…
+7:58:57 AM [express] GET /api/news/channel/s2underground 200 in 251ms :: {"videos":[{"id":"uGEV4sVaH…
+8:00:02 AM [express] GET /api/news/channels 304 in 1ms :: {"channels":[{"id":"UCfGMSLRjSoxbkSIi8i3jf…
+8:00:02 AM [express] GET /api/news/channel/USLawShield 304 in 0ms :: {"videos":[{"id":"HRLqBptMe94",…
+8:00:02 AM [express] GET /api/news/channel/AmericaUncovered 304 in 1ms :: {"videos":[{"id":"wYdveQ7o…
+8:00:02 AM [express] GET /api/news/channel/ArmedScholar 304 in 1ms :: {"videos":[{"id":"v4C1YYtCCho"…
+8:00:02 AM [express] GET /api/news/channel/GunOwnersofAmerica 304 in 1ms :: {"videos":[{"id":"IJrEnx…
+8:00:02 AM [express] GET /api/news/channel/ColionNoir 304 in 1ms :: {"videos":[{"id":"b3p8Xk04uvc","…
+8:00:02 AM [express] GET /api/news/channel/BrandonHerrera 304 in 1ms :: {"videos":[{"id":"NE-BZmgrEA…
+8:00:02 AM [express] GET /api/news/channel/dirty-civilian 304 in 1ms :: {"videos":[{"id":"cofxV9RvIM…
+8:00:02 AM [express] GET /api/news/channel/theGunCollective 304 in 0ms :: {"videos":[{"id":"C0EidCAO…
+8:00:02 AM [express] GET /api/news/channel/s2underground 304 in 0ms :: {"videos":[{"id":"uGEV4sVaHf8…
+8:00:02 AM [express] GET /api/news/channel/falconclaw_ 304 in 0ms :: {"videos":[{"id":"mkNKCPcsiAM",…
+8:00:02 AM [express] GET /api/news/channel/ActiveSelfProtection 304 in 1ms :: {"videos":[{"id":"yHbh…

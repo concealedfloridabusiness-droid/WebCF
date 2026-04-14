@@ -1,0 +1,76 @@
+Prompt:
+
+I want you to generate a free, static website for my company called Concealed Florida. The website will be hosted on Replit, fully client-side, and I will add my own images later. Use HTML, CSS (Tailwind CSS preferred if possible), and JavaScript. Do not include any paid services, logins, or external APIs.
+
+Design & Color Scheme:
+
+Background: black on all pages.
+
+Tabs/buttons: gray.
+
+Text: white.
+
+Homepage background: slightly blurred image of the company logo (PNG of a Florida Panther).
+
+Font and style: clean, modern, easy to read.
+
+Homepage Structure:
+
+Header:
+
+Logo + company name: “Concealed Florida”
+
+Navigation tabs: “Home” (links to homepage), “We Are Ready,” “We Are Watching,” “We Are Hiding in Plain Sight” (links to their respective pages).
+
+Main Section:
+
+Display the logo/PNG prominently in the center with a slightly blurred background effect.
+
+Under the logo, place three buttons:
+
+“We Are Ready”
+
+“We Are Watching”
+
+“We Are Hiding in Plain Sight”
+
+Under each button, add a short summary of the core message:
+
+“We Are Ready” → physical readiness and emergency preparedness.
+
+“We Are Watching” → situational awareness and knowledge of local laws.
+
+“We Are Hiding in Plain Sight” → everyday-carry gear and safe, practical equipment.
+
+Footer:
+
+Include a basic footer template that will automatically appear on all pages.
+
+Include simple text like: “© 2025 Concealed Florida | Informational only, not legal or medical advice.”
+
+Additional Pages:
+
+Create blank pages for each tab: “We Are Ready,” “We Are Watching,” “We Are Hiding in Plain Sight.”
+
+These pages should have the same header and footer automatically included.
+
+For now, the pages can be empty except for a placeholder heading (I’ll add content later).
+
+Navigation Requirements:
+
+All header buttons link to their respective pages.
+
+The “Home” button always returns to the homepage.
+
+Footer appears consistently across all pages.
+
+Technical Notes:
+
+Code must be clean, well-commented, and easy to expand later.
+
+Use a reusable header and footer component approach so I don’t have to copy code manually to each page.
+
+Use only free client-side features; no backend, authentication, or APIs.
+
+Objective:
+Generate a fully functional homepage and site skeleton ready to be hosted on Replit, with the color scheme, header/footer structure, and homepage layout exactly as described, so I can later add content to the other pages.

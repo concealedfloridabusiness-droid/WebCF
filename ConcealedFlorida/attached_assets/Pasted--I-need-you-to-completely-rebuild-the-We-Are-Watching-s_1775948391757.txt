@@ -1,0 +1,41 @@
+"I need you to completely rebuild the We Are Watching section of the Concealed Florida website. Here is the full structure:
+OVERVIEW PAGE — /we-are-watching
+Rebuild WeAreWatching.tsx as an overview page with three large clickable cards/boxes in the same dark tactical style as the homepage. Each card should have an icon, title, short description, and a button that navigates to its dedicated page. The three cards are:
+
+Know Your Area — navigates to /we-are-watching/map — description: "Interactive crime, disaster, and environmental awareness map for Florida"
+2A News — navigates to /we-are-watching/news — description: "Stay current on Second Amendment news, legislation, and updates from trusted experts"
+Situational Awareness Training — navigates to /we-are-watching/awareness — description: "Practical tips, techniques, and sound practices for staying alert and safe in any environment"
+
+PAGE 1 — /we-are-watching/map
+Create a new page MapPage.tsx with an interactive Leaflet.js map defaulting to Florida with these features:
+
+Crime heat map layer using FBI Crime Data Explorer API colored green for low crime, yellow for medium, red for high crime at the county level
+Disaster and hurricane alert overlay using the FEMA Disaster Declarations API at https://www.fema.gov/api/open/v2/disasterDeclarations showing active Florida disasters with orange markers and popups showing disaster type and date
+Toggle switches in the top right corner to turn each layer on and off independently
+A fixed info panel in the bottom left with a brief explanation that sex offender data is not shown directly for legal accuracy reasons, plus a prominent button linking to https://offender.fdle.state.fl.us opening in a new tab
+Data source credit footnotes at the bottom for FBI, FEMA, and FDLE
+
+PAGE 2 — /we-are-watching/news
+Create a new page NewsPage.tsx that uses the YouTube Data API v3 to pull the latest videos from these channels: [PASTE YOUR CHANNEL NAMES HERE]. Display videos as clickable cards showing thumbnail, title, channel name, and upload date. Clicking any card redirects the user directly to that YouTube video in a new tab — do not embed videos. Add a visible credit section acknowledging each channel. Store fetched video links in a persistent server-side archive organized by date. Include a link at the bottom to /we-are-watching/news/archive where users can browse all past videos. Fetch new videos automatically once per day via a scheduled server-side job. Store the YouTube API key in environment secrets as YOUTUBE_API_KEY and make all API calls server-side to avoid CORS issues.
+ARCHIVE PAGE — /we-are-watching/news/archive
+Create ArchivePage.tsx showing all previously saved YouTube video entries organized by date, newest first. Each entry shows thumbnail, title, channel name, date, and a link to the YouTube video opening in a new tab.
+PAGE 3 — /we-are-watching/awareness
+Create AwarenessPage.tsx focused on situational awareness training and de-escalation. Include the following sections:
+
+The Cooper Color Code system for situational awareness (White, Yellow, Orange, Red) displayed as color-coded cards with explanations
+Practical everyday tips for staying aware in public spaces like parking lots, restaurants, and crowds
+De-escalation techniques and principles for avoiding and defusing confrontations
+Recommended habits and mindset practices for responsible and aware citizens
+Use the existing dark tactical styling, icons from lucide-react, and shadcn/ui card components throughout.
+
+TECHNICAL REQUIREMENTS
+
+Add all four new routes to App.tsx: /we-are-watching/map, /we-are-watching/news, /we-are-watching/news/archive, and /we-are-watching/awareness
+Use Leaflet.js loaded via CDN for the map
+Use the existing Tailwind dark theme and shadcn/ui components throughout
+All YouTube API calls must be made server-side in Express
+The YouTube API key goes in Replit Secrets as YOUTUBE_API_KEY
+Make sure the full site still builds and runs correctly after all changes are made"**
+
+
+Remember to fill in your YouTube channel names before pasting. Once this is done and working, we can move on to the "We Are Hiding in Plain Sight" section with its own separate focused prompt. Want me to write that one next while this one builds?

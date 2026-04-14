@@ -1,0 +1,278 @@
+
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+[1G[0K8:02:07 AM [express] serving on port 5000
+Browserslist: browsers data (caniuse-lite) is 18 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+
+A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+8:02:11 AM [express] GET /api/news/channels 200 in 2ms :: {"channels":[{"id":"UCfGMSLRjSoxbkSIi8i3jf…
+8:02:11 AM [express] GET /api/news/channel/BrandonHerrera 304 in 97ms :: {"videos":[{"id":"NE-BZmgrE…
+8:02:11 AM [express] GET /api/news/channel/ColionNoir 304 in 143ms :: {"videos":[{"id":"b3p8Xk04uvc"…
+8:02:11 AM [express] GET /api/news/channel/ArmedScholar 304 in 156ms :: {"videos":[{"id":"v4C1YYtCCh…
+8:02:11 AM [express] GET /api/news/channel/ActiveSelfProtection 304 in 93ms :: {"videos":[{"id":"yHb…
+8:02:11 AM [express] GET /api/news/channel/GunOwnersofAmerica 304 in 221ms :: {"videos":[{"id":"IJrE…
+8:02:11 AM [express] GET /api/news/channel/USLawShield 304 in 281ms :: {"videos":[{"id":"HRLqBptMe94…
+8:02:11 AM [express] GET /api/news/channel/wranglerstar 200 in 71ms :: {"videos":[{"id":"xs01q3XQbQ0…
+8:02:11 AM [express] GET /api/news/channel/falconclaw_ 304 in 125ms :: {"videos":[{"id":"mkNKCPcsiAM…
+8:02:11 AM [express] GET /api/news/channel/dirty-civilian 304 in 139ms :: {"videos":[{"id":"cofxV9Rv…
+8:02:11 AM [express] GET /api/news/channel/theGunCollective 304 in 76ms :: {"videos":[{"id":"C0EidCA…
+8:02:11 AM [express] GET /api/news/channel/PrepMedic 200 in 104ms :: {"videos":[{"id":"iu8BGUnRxhA",…
+8:02:11 AM [express] GET /api/news/channel/AmericaUncovered 304 in 335ms :: {"videos":[{"id":"wYdveQ…
+8:02:12 AM [express] GET /api/news/channel/s2underground 304 in 126ms :: {"videos":[{"id":"uGEV4sVaH…
+8:02:22 AM [express] GET /api/news/channels 304 in 1ms :: {"channels":[{"id":"UCfGMSLRjSoxbkSIi8i3jf…
+8:02:22 AM [express] GET /api/news/channel/USLawShield 304 in 1ms :: {"videos":[{"id":"HRLqBptMe94",…
+8:02:22 AM [express] GET /api/news/channel/ArmedScholar 304 in 1ms :: {"videos":[{"id":"v4C1YYtCCho"…
+8:02:22 AM [express] GET /api/news/channel/GunOwnersofAmerica 304 in 0ms :: {"videos":[{"id":"IJrEnx…
+8:02:22 AM [express] GET /api/news/channel/AmericaUncovered 304 in 0ms :: {"videos":[{"id":"wYdveQ7o…
+8:02:22 AM [express] GET /api/news/channel/ColionNoir 304 in 1ms :: {"videos":[{"id":"b3p8Xk04uvc","…
+8:02:22 AM [express] GET /api/news/channel/BrandonHerrera 304 in 0ms :: {"videos":[{"id":"NE-BZmgrEA…
+8:02:22 AM [express] GET /api/news/channel/ActiveSelfProtection 304 in 0ms :: {"videos":[{"id":"yHbh…
+8:02:22 AM [express] GET /api/news/channel/dirty-civilian 304 in 0ms :: {"videos":[{"id":"cofxV9RvIM…
+8:02:22 AM [express] GET /api/news/channel/falconclaw_ 304 in 1ms :: {"videos":[{"id":"mkNKCPcsiAM",…
+8:02:22 AM [express] GET /api/news/channel/wranglerstar 304 in 0ms :: {"videos":[{"id":"xs01q3XQbQ0"…
+8:02:22 AM [express] GET /api/news/channel/PrepMedic 304 in 0ms :: {"videos":[{"id":"iu8BGUnRxhA","t…
+8:02:22 AM [express] GET /api/news/channel/theGunCollective 304 in 1ms :: {"videos":[{"id":"C0EidCAO…
+8:02:22 AM [express] GET /api/news/channel/s2underground 304 in 0ms :: {"videos":[{"id":"uGEV4sVaHf8…
+8:02:32 AM [express] GET /api/news/channels 200 in 1ms :: {"channels":[{"id":"UCfGMSLRjSoxbkSIi8i3jf…
+8:02:32 AM [express] GET /api/news/channel/USLawShield 304 in 1ms :: {"videos":[{"id":"HRLqBptMe94",…
+8:02:32 AM [express] GET /api/news/channel/BrandonHerrera 304 in 1ms :: {"videos":[{"id":"NE-BZmgrEA…
+8:02:32 AM [express] GET /api/news/channel/GunOwnersofAmerica 304 in 1ms :: {"videos":[{"id":"IJrEnx…
+8:02:32 AM [express] GET /api/news/channel/ArmedScholar 304 in 0ms :: {"videos":[{"id":"v4C1YYtCCho"…
+8:02:32 AM [express] GET /api/news/channel/ColionNoir 304 in 1ms :: {"videos":[{"id":"b3p8Xk04uvc","…
+8:02:32 AM [express] GET /api/news/channel/AmericaUncovered 304 in 1ms :: {"videos":[{"id":"wYdveQ7o…
+8:02:32 AM [express] GET /api/news/channel/ActiveSelfProtection 304 in 1ms :: {"videos":[{"id":"yHbh…
+8:02:32 AM [express] GET /api/news/channel/dirty-civilian 304 in 1ms :: {"videos":[{"id":"cofxV9RvIM…
+8:02:32 AM [express] GET /api/news/channel/wranglerstar 200 in 0ms :: {"videos":[{"id":"xs01q3XQbQ0"…
+8:02:32 AM [express] GET /api/news/channel/theGunCollective 304 in 0ms :: {"videos":[{"id":"C0EidCAO…
+8:02:32 AM [express] GET /api/news/channel/falconclaw_ 304 in 0ms :: {"videos":[{"id":"mkNKCPcsiAM",…
+8:02:32 AM [express] GET /api/news/channel/PrepMedic 200 in 1ms :: {"videos":[{"id":"iu8BGUnRxhA","t…
+8:02:32 AM [express] GET /api/news/channel/s2underground 304 in 1ms :: {"videos":[{"id":"uGEV4sVaHf8…
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:03:53 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Header.tsx, /src/index.css?v=44YagPNhvAuL84v88Fe5a[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:03:56 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/NewsPage.tsx, /src/index.css?v=44YagPNhvAuL84v88Fe5a[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:03:56 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: /home/runner/workspace/client/src/pages/NewsPage.tsx: Expected corresponding JSX closing tag for <div>. (390:6)
+
+[0m [90m 388 |[31m           [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m 389 |[31m         [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+[31m[1m>[22m[31m[90m 390 |[31m       [33m<[31m[33m/[31m[33mLayout[31m[33m>[31m
+ [90m     |[31m       [31m[1m^[22m[31m
+ [90m 391 |[31m     [33m<[31m[33m/[31m[33m>[31m
+ [90m 392 |[31m   )[33m;[31m
+ [90m 393 |[31m }[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/home/runner/workspace/client/src/pages/NewsPage.tsx[39m:390:6
+[33m  388|            </div>
+  389|          </div>
+  390|        </Layout>
+     |        ^
+  391|      </>
+  392|    );[39m
+      at toParseError (/home/runner/workspace/node_modules/@babel/parser/src/parse-error.ts:95:45)
+      at raise (/home/runner/workspace/node_modules/@babel/parser/src/tokenizer/index.ts:1503:19)
+      at jsxParseElementAt (/home/runner/workspace/node_modules/@babel/parser/src/plugins/jsx/index.ts:527:18)
+      at jsxParseElementAt (/home/runner/workspace/node_modules/@babel/parser/src/plugins/jsx/index.ts:483:34)
+      at jsxParseElementAt (/home/runner/workspace/node_modules/@babel/parser/src/plugins/jsx/index.ts:483:34)
+      at jsxParseElement (/home/runner/workspace/node_modules/@babel/parser/src/plugins/jsx/index.ts:559:19)
+      at parseExprAtom (/home/runner/workspace/node_modules/@babel/parser/src/plugins/jsx/index.ts:573:21)
+      at parseExprSubscripts (/home/runner/workspace/node_modules/@babel/parser/src/parser/expression.ts:734:23)
+      at parseUpdate (/home/runner/workspace/node_modules/@babel/parser/src/parser/expression.ts:713:21)
+      at parseMaybeUnary (/home/runner/workspace/node_modules/@babel/parser/src/parser/expression.ts:675:23)
+      at parseMaybeUnary (/home/runner/workspace/node_modules/@babel/parser/src/plugins/typescript/index.ts:3855:20)
+      at parseMaybeUnaryOrPrivate (/home/runner/workspace/node_modules/@babel/parser/src/parser/expression.ts:409:14)
+      at parseExprOps (/home/runner/workspace/node_modules/@babel/parser/src/parser/expression.ts:421:23)
+      at parseMaybeConditional (/home/runner/workspace/node_modules/@babel/parser/src/parser/expression.ts:376:23)
+      at parseMaybeAssign (/home/runner/workspace/node_modules/@babel/parser/src/parser/expression.ts:301:21)
+      at fn (/home/runner/workspace/node_modules/@babel/parser/src/plugins/typescript/index.ts:3708:23)
+      at tryParse (/home/runner/workspace/node_modules/@babel/parser/src/parser/util.ts:174:20)
+      at parseMaybeAssign (/home/runner/workspace/node_modules/@babel/parser/src/plugins/typescript/index.ts:3707:20)
+      at callback (/home/runner/workspace/node_modules/@babel/parser/src/parser/expression.ts:257:12)
+      at allowInAnd (/home/runner/workspace/node_modules/@babel/parser/src/parser/expression.ts:3192:12)
+      at parseMaybeAssignAllowIn (/home/runner/workspace/node_modules/@babel/parser/src/parser/expression.ts:256:17)
+      at parseMaybeAssignAllowInOrVoidPattern (/home/runner/workspace/node_modules/@babel/parser/src/parser/expression.ts:3306:17)
+      at parseParenAndDistinguishExpression (/home/runner/workspace/node_modules/@babel/parser/src/parser/expression.ts:1813:16)
+      at parseExprAtom (/home/runner/workspace/node_modules/@babel/parser/src/parser/expression.ts:1162:21)
+      at parseExprAtom (/home/runner/workspace/node_modules/@babel/parser/src/plugins/jsx/index.ts:583:22)
+      at parseExprSubscripts (/home/runner/workspace/node_modules/@babel/parser/src/parser/expression.ts:734:23)
+      at parseUpdate (/home/runner/workspace/node_modules/@babel/parser/src/parser/expression.ts:713:21)
+      at parseMaybeUnary (/home/runner/workspace/node_modules/@babel/parser/src/parser/expression.ts:675:23)
+      at parseMaybeUnary (/home/runner/workspace/node_modules/@babel/parser/src/plugins/typescript/index.ts:3855:20)
+      at parseMaybeUnaryOrPrivate (/home/runner/workspace/node_modules/@babel/parser/src/parser/expression.ts:409:14)
+      at parseExprOps (/home/runner/workspace/node_modules/@babel/parser/src/parser/expression.ts:421:23)
+      at parseMaybeConditional (/home/runner/workspace/node_modules/@babel/parser/src/parser/expression.ts:376:23)
+      at parseMaybeAssign (/home/runner/workspace/node_modules/@babel/parser/src/parser/expression.ts:301:21)
+      at parseMaybeAssign (/home/runner/workspace/node_modules/@babel/parser/src/plugins/typescript/index.ts:3727:22)
+      at parseExpressionBase (/home/runner/workspace/node_modules/@babel/parser/src/parser/expression.ts:226:23)
+      at callback (/home/runner/workspace/node_modules/@babel/parser/src/parser/expression.ts:217:39)
+      at allowInAnd (/home/runner/workspace/node_modules/@babel/parser/src/parser/expression.ts:3187:16)
+      at parseExpression (/home/runner/workspace/node_modules/@babel/parser/src/parser/expression.ts:217:17)
+      at parseReturnStatement (/home/runner/workspace/node_modules/@babel/parser/src/parser/statement.ts:1110:28)
+      at parseStatementContent (/home/runner/workspace/node_modules/@babel/parser/src/parser/statement.ts:538:21)
+      at parseStatementContent (/home/runner/workspace/node_modules/@babel/parser/src/plugins/typescript/index.ts:3185:20)
+      at parseStatementLike (/home/runner/workspace/node_modules/@babel/parser/src/parser/statement.ts:477:17)
+      at parseStatementListItem (/home/runner/workspace/node_modules/@babel/parser/src/parser/statement.ts:426:17)
+      at parseBlockOrModuleBlockBody (/home/runner/workspace/node_modules/@babel/parser/src/parser/statement.ts:1439:16)
+      at parseBlockBody (/home/runner/workspace/node_modules/@babel/parser/src/parser/statement.ts:1412:10)
+      at parseBlock (/home/runner/workspace/node_modules/@babel/parser/src/parser/statement.ts:1380:10)
+      at parseFunctionBody (/home/runner/workspace/node_modules/@babel/parser/src/parser/expression.ts:2616:24)
+      at parseFunctionBodyAndFinish (/home/runner/workspace/node_modules/@babel/parser/src/parser/expression.ts:2585:10)
+      at parseFunctionBodyAndFinish (/home/runner/workspace/node_modules/@babel/parser/src/plugins/typescript/index.ts:2646:20)
+      at <anonymous> (/home/runner/workspace/node_modules/@babel/parser/src/parser/statement.ts:1690:12)
+[1G[0K⠙[1G[0K

@@ -1,0 +1,95 @@
+Build a full website for "Concealed Florida" — a 2nd Amendment education and 
+community platform. The site has 3 main pillars with the motto: 
+"We Are Ready. We Are Watching. We Are Hiding in Plain Sight."
+Mascot: Florida Panther. Dark tactical aesthetic.
+
+--- SITE STRUCTURE ---
+
+NAVBAR: Home | We Are Ready | We Are Watching | We Are Hiding in Plain Sight | Contact
+
+---
+
+PAGE 1: WE ARE READY
+Sub-tabs: Fitness | First Aid & Skills | Mental Preparedness
+
+[FITNESS TAB]
+- Display fitness standards in a card/table layout by demographic:
+  Boys (under 13), Teens (13-17), Young Adults (18-25), Adults (26-39), 40+
+- For each group show: push-ups, sit-ups, pull-ups, 2-mile run time
+- Source: US Army ACFT standards (public domain), USMC PFT, Navy PRT
+- Two tiers: "Civilian Baseline" and "Military Readiness Standard"
+- Button: "Advanced Training" → leads to a resources page with embedded 
+  YouTube videos (Jeff Nippard, Alan Thrall, etc.) with title + description 
+  + benefit + link. No autoplay.
+
+[FIRST AID TAB]
+- Cards linking to free resources: Stop the Bleed, FEMA, Red Cross
+- Embed or link YouTube: tourniquet application, CPR, wound packing
+
+---
+
+PAGE 2: WE ARE WATCHING
+Sub-tabs: Crime & Awareness Map | News & Laws | Hurricane Preparedness
+
+[MAP TAB]
+- Embed the S2 Underground CIP map via iframe:
+  https://nexus-s2underground.hub.arcgis.com/maps/7f13eda1f301431e98a7ac0393b0e6b0/explore
+- Credit S2 Underground with link and description below map
+- Add a note: "We do not own this map. Full credit to S2 Underground."
+- Optionally layer a Crimemapping.com embed for Florida local crime data
+- Add sex offender overlay using free Florida FDLE public data iframe:
+  https://offender.fdle.state.fl.us/offender/sops/home.jsf
+
+[NEWS & LAWS TAB]
+- RSS feed auto-fetching 2nd Amendment news using RSS2JSON API (free tier)
+  Sources: NRA-ILA (nraila.org/feed), Bearing Arms, The Truth About Guns
+- Display as cards: headline, source, date, link to original
+- Past stories accumulate in a scrollable list (store in localStorage or 
+  a free Supabase DB)
+
+[HURRICANE TAB]
+- Email signup form → connect to Mailchimp free tier (500 contacts free)
+- Show NHC active storm tracker embed: 
+  https://www.nhc.noaa.gov
+- FEMA preparedness checklist displayed as interactive checklist
+- Basic supply list with Amazon affiliate links (optional — free to set up)
+
+---
+
+PAGE 3: WE ARE HIDING IN PLAIN SIGHT
+Sub-tabs: Holsters & Carry | EDC Gear | Clothing & Blending In
+
+[HOLSTERS TAB]
+Sub-categories: Appendix (AIWB) | OWB | IWB | Body Type Recommendations
+- Cards per product: image, name, brand (945 Industries, Arrowhead Tactical, etc.)
+  short review, "Best for: [body type]", link to product page
+- Embedded YouTube review video per product with description
+
+[EDC GEAR TAB]
+- Same card layout: lights, knives, med kits, communication
+- Links to reviewed products with editorial note that there is no paid promotion
+
+[CLOTHING TAB]
+- Tips on concealment-friendly clothing brands
+- Cards with images, descriptions, links
+
+---
+
+GLOBAL FEATURES
+- Florida Panther logo/mascot in header
+- Dark theme (navy/black/gold accent)
+- Mobile responsive
+- Footer: disclaimer that site is educational only, not legal advice
+- Contact page with simple form (Formspree free tier)
+
+---
+
+TECH STACK (all free tiers)
+- Host: Replit (current) or migrate to Vercel (free, faster)
+- DB: Supabase free tier (news storage, email list backup)
+- Email: Mailchimp free (500 contacts, 1000 sends/month)
+- Map: iframe embeds (S2 Underground ArcGIS, Crimemapping, FDLE)
+- Forms: Formspree free (50 submissions/month)
+- RSS parsing: rss2json.com free API
+- Videos: YouTube embed (no cost)
+- Analytics: Google Analytics or Plausible (free self-host)

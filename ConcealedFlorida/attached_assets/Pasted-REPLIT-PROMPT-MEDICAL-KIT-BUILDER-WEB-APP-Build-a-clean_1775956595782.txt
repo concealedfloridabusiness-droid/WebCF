@@ -1,0 +1,195 @@
+REPLIT PROMPT — MEDICAL KIT BUILDER WEB APP
+Build a clean, responsive web application called "Build Your Med Kit" with the following features and structure:
+
+OVERVIEW
+Three tiers of medical kits:
+
+Basic – Everyday booboos (cuts, scratches, minor burns)
+Medium – Trauma-capable car/bag kit
+Advanced – Full trauma kit for serious emergencies
+
+Each tier has:
+
+A visual checklist page (printable, with checkboxes, laminate-friendly)
+Bag recommendations with dimensions + Amazon/NAR links (with fallback dimensions if links die)
+Item cards with name, quantity, expiration info, and purchase links
+A pill/medication ziplock section with a printable name plate showing: product name, expiration date, contents, and owner name field
+A "Buy on Amazon" / "Buy on NAR" button per item
+
+
+TIER 1 — BASIC KIT ("Booboo Kit")
+Concept: Start with a standard CVS First Aid Kit off the shelf (~$20–30), gut it for the tray/case, then supplement with the items below. Give the user a checklist of what to look for inside a basic CVS kit when buying it.
+Bag: Small pouch or repurposed CVS kit case
+
+Recommended dimensions: ~6" x 4" x 2"
+Amazon search term: "small first aid pouch"
+Example link placeholder: [Amazon – Small First Aid Pouch]
+Alt option: any zippered travel pouch ~6x4"
+
+What to look for in a CVS kit (checklist):
+
+Adhesive bandages (assorted sizes)
+Gauze pads (2x2 or 4x4)
+Medical tape
+Antiseptic wipes / Alcohol prep pads
+Antibiotic ointment (Neosporin)
+Scissors or shears
+Tweezers
+First aid guide booklet
+
+Supplement Items to add:
+
+Alcohol Prep Pads – [CVS Link] [Amazon Link] – Replace: 1–2 years
+Bandages, All One Size – [CVS Link] [Amazon Link] – Replace: 5 years
+Bandages, Extra-Large – [CVS Link] [Amazon Link] – Replace: 5 years
+Bandages, Universal Sizes – [CVS Link] [Amazon Link] – Replace: 5 years
+Neosporin packets (2–4 count) – [Amazon Link] – Replace: 2–3 years
+Gauze Pads – [CVS Link] [Amazon Link] – No expiration
+Mole Skin – [Amazon Link] – Replace: 5 years
+Medical Tape – [NAR Link] [CVS Link] [Amazon Link] – Replace: 6 months–2 years
+
+Pill Ziplock Bag (Smaller bag, labeled)
+
+Ibuprofen Single Dose Packets – [Amazon Link] – Replace: 4–5 years
+Tylenol Extra Strength Caplets – [Amazon Link] – Replace: 4–5 years
+Sting Relief Pads – [Amazon Link] – Replace: 4–5 years
+Diphen (Diphenhydramine) – [Amazon Link] – Replace: 4–5 years
+Alka-Seltzer Heartburn – [Amazon Link] – Replace: 5 years
+Burn Packets – [Amazon Link] – Replace: 3–5 years
+
+Printable Ziplock Name Plate (user fills in):
+[ KIT OWNER NAME: _________________ ]
+[ PRODUCT: ________________________ ]
+[ EXPIRATION DATE: ________________ ]
+[ CONTENTS: _______________________ ]
+
+TIER 2 — MEDIUM KIT ("Trauma Car/Bag Kit")
+Concept: A compact trauma-ready kit for your car or everyday bag. Built around a medium-sized tactical or medical pouch.
+Bag:
+
+Recommended: AR500 Medium Bag (Tan) – [AR500 Link]
+Amazon alternative: Medium red medical bag – [Amazon Link]
+Dimensions to look for: ~10" x 7" x 4" (MOLLE-compatible preferred)
+What to look for: MOLLE webbing, multiple compartments, water-resistant
+
+Outside of Bag:
+
+1x C-A-T Tourniquet (Orange) – [NAR Link] [Amazon Link] – TQ Holder (Red, Recommended): [Amazon Link]
+1x Sharpie Mini – [Amazon Link] – Replace: 2–3 years
+1x Responder Shears (Large) – [NAR Link] [Amazon Link]
+
+Inside the Bag:
+
+1x Gloves (prep kit) – [Amazon Link] / NAR Gloves – [NAR Link]
+1x NAR Hyfin Vent Compact Two-Pack – [NAR Link] [Amazon Link]
+1x Survival Blanket – [NAR Link] [Amazon Link]
+1x C-A-T Tourniquet (Orange) – [NAR Link] [Amazon Link]
+1x 6 IN. Trauma Dressing – [NAR Link] [Amazon Link]
+1x 4 IN. Trauma Dressing – [NAR Link] [Amazon Link]
+2x S-Rolled Gauze – [NAR Link] [Amazon Link]
+1x Medical Tape – [NAR Link] [CVS Link] [Amazon Link] – Replace: 6 months–2 years
+
+Optional Add-ons:
+
+1x CPR Mask – [Amazon Link]
+1x Surgical Tweezers 5.5" – [Amazon Link]
+1x Burn Pad 4.4" – [NAR Link] / [Amazon Link] – Replace: 5 years
+1x Burn Pad 2.2" – [NAR Link] – Replace: 5 years
+1x QuikClot EMS 4x4 Hemostatic Gauze – [NAR Link] – Replace: 5 years
+1x QuikClot Clotting Gauze 3" x 48" – [Amazon Link] – Replace: 5 years
+1x Triangular Bandage – [NAR Link] [Amazon Link]
+
+Pill Ziplock Bag (Smaller):
+
+2x Tylenol Extra Strength – Replace: 4–5 years
+2x Ibuprofen Single Dose – Replace: 4–5 years
+2x Burn Packets – Replace: 3–5 years
+1x Neosporin (tub or 2–4 packets) – Replace: 2–3 years
+2x Sting Relief Pads – Replace: 4–5 years
+2x Diphen – Replace: 4–5 years
+
+Extra Ziplock Bag (Smaller):
+
+2x Liquid IV – Replace: 18–24 months
+2x Emergen-C 1000mg – No expiration listed
+2x Alka-Seltzer Heartburn – Replace: 5 years
+
+Band-Aid Ziplock Bag (Medium):
+
+10x Alcohol Prep Pads – Replace: 1–2 years
+10–5x Bandages All One Size – Replace: 5 years
+5–3x Bandages Extra-Large – Replace: 5 years
+Universal Bandages (divided equally) – Replace: 5 years
+1x Mole Skin – Replace: 5 years
+5–2x Gauze Pads – No expiration
+
+
+TIER 3 — ADVANCED KIT ("Full Trauma Kit")
+Concept: Full-size car trauma kit or home emergency bag. Handles multi-casualty and serious trauma.
+Bag:
+
+Recommended: AR500 Large / Amazon Large Red Medical Bag
+Dimensions to look for: ~14" x 10" x 6" or larger, MOLLE-compatible, multiple outer pockets
+[Amazon Link] [AR500 Link]
+
+Outside of Bag:
+
+1x TQ Holder (Red) – [Amazon Link]
+1x C-A-T Tourniquet (Orange) – [NAR Link] [Amazon Link]
+1x Sharpie Mini – [Amazon Link]
+1x Responder Shears (Large) – [NAR Link] [Amazon Link]
+
+Inside the Bag:
+
+2x Sharpie Mini – Replace: 2–3 years
+2x Gloves (prep kit or NAR) – [Amazon Link] [NAR Link]
+2x NAR Hyfin Vent Compact Two-Pack – [NAR Link] [Amazon Link]
+2x Survival Blanket – [NAR Link] [Amazon Link]
+1x CPR Mask – [Amazon Link]
+1x Surgical Tweezers 5.5" – [Amazon Link]
+2x C-A-T Tourniquet (Orange) – [NAR Link] [Amazon Link]
+1x Triangular Bandage – [NAR Link] [Amazon Link]
+2x 6 IN. Trauma Dressing – [NAR Link] [Amazon Link]
+2x 4 IN. Trauma Dressing – [NAR Link] [Amazon Link]
+4x S-Rolled Gauze – [NAR Link] [Amazon Link]
+1x Medical Tape – Replace: 6 months–2 years
+
+Optional Add-ons:
+
+1x Burn Pad 4.4" – [NAR Link] / [Amazon Link] – Replace: 5 years
+1x Burn Pad 2.2" – [NAR Link] – Replace: 5 years
+1x QuikClot EMS 4x4 Gauze – [NAR Link] – Replace: 5 years
+2x QuikClot 3" x 48" – [Amazon Link] – Replace: 5 years
+
+(Same Pill / Extra / Band-Aid ziplock bags as Medium, doubled quantities)
+
+PRINTABLE CHECKLIST FEATURE
+Each tier must have a "Print Checklist" button that opens a print-friendly page with:
+
+The kit name and tier at the top
+All items listed with ☐ checkbox next to each
+Expiration date field next to expirable items: Exp: ________
+A footer with: Last checked: _________ | Next check due: _________
+Clean black-and-white layout suitable for laminating (no colored backgrounds)
+Font size minimum 12pt for readability when laminated
+Section dividers: OUTSIDE BAG / INSIDE BAG / PILLS / EXTRAS / BANDAGES
+
+
+GENERAL UI REQUIREMENTS
+
+Mobile-friendly responsive layout
+Each tier has its own tab or page
+Items display as cards with: item name, quantity, expiration info, and 1–2 buy links
+Color coding: Green = no expiration | Yellow = expires 3–5 years | Orange = expires 1–2 years | Red = expires under 1 year
+"Mark as Owned" toggle per item (saves to localStorage)
+Progress bar per kit showing % of items owned
+Bag dimension specs always visible even if buy link is broken
+Footer links to: Stop The Bleed training, Red Cross CPR training, PrepMedic YouTube
+
+
+TECH STACK SUGGESTION
+
+React or plain HTML/CSS/JS
+No backend needed (localStorage for state)
+Print styles via @media print CSS
+Keep it single-page or multi-tab

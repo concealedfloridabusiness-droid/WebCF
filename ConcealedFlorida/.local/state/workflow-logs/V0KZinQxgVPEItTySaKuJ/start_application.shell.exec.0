@@ -1,0 +1,94 @@
+
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+[1G[0K7:56:34 AM [express] serving on port 5000
+Browserslist: browsers data (caniuse-lite) is 18 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+
+A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+7:57:33 AM [express] GET /api/news/channels 304 in 2ms :: {"channels":[{"id":"UCfGMSLRjSoxbkSIi8i3jf…
+7:57:33 AM [express] GET /api/news/channel/USLawShield 304 in 123ms :: {"videos":[{"id":"HRLqBptMe94…
+7:57:33 AM [express] GET /api/news/channel/GunOwnersofAmerica 304 in 106ms :: {"videos":[{"id":"IJrE…
+7:57:33 AM [express] GET /api/news/channel/ArmedScholar 304 in 135ms :: {"videos":[{"id":"v4C1YYtCCh…
+7:57:33 AM [express] GET /api/news/channel/AmericaUncovered 304 in 76ms :: {"videos":[{"id":"wYdveQ7…
+7:57:33 AM [express] GET /api/news/channel/BrandonHerrera 304 in 117ms :: {"videos":[{"id":"NE-BZmgr…
+7:57:33 AM [express] GET /api/news/channel/ActiveSelfProtection 304 in 138ms :: {"videos":[{"id":"yH…
+7:57:33 AM [express] GET /api/news/channel/ColionNoir 304 in 141ms :: {"videos":[{"id":"b3p8Xk04uvc"…
+7:57:33 AM [express] GET /api/news/channel/dirty-civilian 304 in 131ms :: {"videos":[{"id":"cofxV9Rv…
+7:57:33 AM [express] GET /api/news/channel/falconclaw_ 304 in 187ms :: {"videos":[{"id":"mkNKCPcsiAM…
+7:57:33 AM [express] GET /api/news/channel/theGunCollective 304 in 113ms :: {"videos":[{"id":"C0EidC…
+7:57:33 AM [express] GET /api/news/channel/s2underground 304 in 127ms :: {"videos":[{"id":"uGEV4sVaH…
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:57:33 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/TrainingVideosPage.tsx, /src/index.css?v=vRaRLqwyukuEgmC-reEEH[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:58:08 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/FirstAidVideosPage.tsx, /src/index.css?v=vRaRLqwyukuEgmC-reEEH[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:58:29 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/NewsPage.tsx, /src/index.css?v=vRaRLqwyukuEgmC-reEEH[22m

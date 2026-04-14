@@ -1,0 +1,31 @@
+"I need you to completely upgrade the existing map page at /we-are-watching/map. The current map only has basic FBI county-level crime data and FEMA disasters. I need it replaced with a much more detailed, accurate, nationwide interactive map using multiple free data layers. Here is everything I need:
+BASE MAP
+Keep using Leaflet.js but upgrade the tile layer to use OpenStreetMap as the base. The map should default to a full US view showing all 50 states, not just Florida. Users can zoom into any state, county, city, or neighborhood. Make sure the map is responsive and fills the full page height.
+LAYER 1 — CRIME HEAT MAP (Nationwide, Accurate Pins)
+Replace the current county-level FBI color blobs with incident-level crime pins using the FBI NIBRS API at https://api.usa.gov/crime/fbi/sapi/ — this requires a free API key from data.gov stored in Replit Secrets as FBI_API_KEY. Pull incident-level crime data by location and render it as a heat map gradient using the Leaflet.heat plugin loaded via CDN. Color gradient should go from green for low density, yellow for moderate, orange for high, and red for very high crime density. As the user zooms in, the heat map should transition to individual incident pins showing the crime type, date, and city. Also pull city-level crime data from Data.gov for these major cities where more granular data is available: Chicago, New York City, Los Angeles, New Orleans, Austin, Seattle, and for Florida specifically pull from the Florida Department of Law Enforcement open data at https://www.fdle.state.fl.us/FSAC/Data-Statistics. All pins should be accurate to the actual reported incident location, not approximated to county centers.
+LAYER 2 — GUN VIOLENCE INCIDENTS
+Fetch incident data from the Gun Violence Archive API at https://www.gunviolencearchive.org — pull the most recent 500 incidents nationwide with coordinates. Display as dark red pins with a bullet icon or similar marker. Each pin popup should show the date, city, state, number injured, number killed, and a note crediting Gun Violence Archive as the source. This layer should be toggleable on and off independently.
+LAYER 3 — NOAA SEVERE WEATHER ALERTS
+Fetch active severe weather alerts from the free NOAA Weather API at https://api.weather.gov/alerts/active — this requires no API key. Display active alerts as colored polygon overlays on the map matching their severity: extreme alerts in red, severe in orange, moderate in yellow, minor in blue. Each alert popup should show the event type such as Tornado Warning or Hurricane Watch, the affected area, and the expiration time. This layer updates automatically every 10 minutes using a client-side interval refresh.
+LAYER 4 — FEMA DISASTER DECLARATIONS
+Keep the existing FEMA layer from https://www.fema.gov/api/open/v2/disasterDeclarations but upgrade it to show nationwide disasters, not just Florida. Filter to show only disasters declared within the last 12 months. Use distinct orange map markers with a hazard icon. Popup should show disaster type, state, declaration date, and a brief description.
+LAYER 5 — HOSPITALS AND TRAUMA CENTERS
+Fetch Level 1 and Level 2 trauma center locations nationwide from the HRSA data at https://data.hrsa.gov/api/download — display as green cross markers. Popup should show hospital name, address, trauma level, and phone number if available. This layer helps users identify nearest emergency medical facilities when traveling.
+LAYER CONTROLS
+Add a clean layer toggle panel in the top right corner of the map with a checkbox or switch for each layer. Labels should be: Crime Heatmap, Gun Violence Incidents, Weather Alerts, FEMA Disasters, Trauma Centers. Each layer can be turned on and off independently. Default state should have Crime Heatmap and Weather Alerts turned on, others turned off so the map loads fast.
+SEX OFFENDER INFO PANEL
+Keep the existing bottom-left info panel explaining that sex offender data is not shown directly. Add a second button alongside the Florida FDLE link that opens the National Sex Offender Public Website at https://www.nsopw.gov in a new tab so users can search any state, not just Florida.
+PERFORMANCE
+All API calls must be made server-side in Express to avoid CORS issues and protect API keys. Cache each data source server-side for the following durations: crime data for 24 hours, gun violence for 6 hours, NOAA weather for 10 minutes, FEMA for 1 hour, hospitals for 7 days since that data rarely changes. Use loading spinners on each layer while data fetches so the map does not appear broken during load.
+CREDITS FOOTER
+At the bottom of the map page add a credits section listing: FBI Crime Data Explorer, Gun Violence Archive, NOAA National Weather Service, FEMA, HRSA Health Resources and Services Administration, Florida Department of Law Enforcement, and OpenStreetMap contributors. Each should link to its respective source website in a new tab.
+API KEYS NEEDED IN REPLIT SECRETS
+
+FBI_API_KEY — free from https://api.data.gov/signup
+No key needed for NOAA, FEMA, HRSA, or Gun Violence Archive
+
+Make sure the full site still builds and runs after these changes. Do not break any existing pages."**
+
+Before you paste this, do one quick thing:
+Go to api.data.gov/signup, enter your email, and they instantly send you a free API key. Paste it into Replit Secrets as FBI_API_KEY. The whole signup takes under two minutes and without it the crime layer won't work.
+Everything else — NOAA, FEMA, HRSA, Gun Violence Archive — requires zero signup and zero keys. The agent handles all of it from there.

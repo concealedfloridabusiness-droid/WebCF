@@ -1,0 +1,92 @@
+
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+[1G[0K7:29:28 AM [express] serving on port 5000
+Browserslist: browsers data (caniuse-lite) is 18 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+
+A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:29:58 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/FirearmTraining.tsx, /src/index.css?v=eYuqS9jQS3JcewZoQJB6l[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:30:00 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/FitnessMale.tsx, /src/index.css?v=eYuqS9jQS3JcewZoQJB6l[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:30:02 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/FitnessFemale.tsx, /src/index.css?v=eYuqS9jQS3JcewZoQJB6l[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:30:05 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/PreppingPage.tsx, /src/index.css?v=eYuqS9jQS3JcewZoQJB6l[22m
+7:33:50 AM [express] GET /api/news/channels 304 in 2ms :: {"channels":[{"id":"UCfGMSLRjSoxbkSIi8i3jf…
+7:33:50 AM [express] GET /api/news/channel/BrandonHerrera 304 in 126ms :: {"videos":[{"id":"NE-BZmgr…
+7:33:50 AM [express] GET /api/news/channel/USLawShield 304 in 200ms :: {"videos":[{"id":"HRLqBptMe94…
+7:33:50 AM [express] GET /api/news/channel/GunOwnersofAmerica 304 in 171ms :: {"videos":[{"id":"IJrE…
+7:33:50 AM [express] GET /api/news/channel/AmericaUncovered 304 in 184ms :: {"videos":[{"id":"wYdveQ…
+7:33:50 AM [express] GET /api/news/channel/ArmedScholar 304 in 271ms :: {"videos":[{"id":"v4C1YYtCCh…
+7:33:50 AM [express] GET /api/news/channel/theGunCollective 304 in 88ms :: {"videos":[{"id":"C0EidCA…
+7:33:50 AM [express] GET /api/news/channel/falconclaw_ 304 in 91ms :: {"videos":[{"id":"mkNKCPcsiAM"…
+7:33:50 AM [express] GET /api/news/channel/ActiveSelfProtection 304 in 155ms :: {"videos":[{"id":"yH…
+7:33:51 AM [express] GET /api/news/channel/ColionNoir 304 in 356ms :: {"videos":[{"id":"b3p8Xk04uvc"…
+7:33:51 AM [express] GET /api/news/channel/dirty-civilian 304 in 173ms :: {"videos":[{"id":"cofxV9Rv…
+7:33:51 AM [express] GET /api/news/channel/s2underground 304 in 179ms :: {"videos":[{"id":"uGEV4sVaH…
+7:34:41 AM [express] GET /api/news/channels 304 in 2ms :: {"channels":[{"id":"UCfGMSLRjSoxbkSIi8i3jf…
+7:34:41 AM [express] GET /api/news/channel/USLawShield 304 in 0ms :: {"videos":[{"id":"HRLqBptMe94",…
+7:34:41 AM [express] GET /api/news/channel/BrandonHerrera 304 in 1ms :: {"videos":[{"id":"NE-BZmgrEA…
+7:34:41 AM [express] GET /api/news/channel/GunOwnersofAmerica 304 in 1ms :: {"videos":[{"id":"IJrEnx…
+7:34:41 AM [express] GET /api/news/channel/AmericaUncovered 304 in 1ms :: {"videos":[{"id":"wYdveQ7o…
+7:34:41 AM [express] GET /api/news/channel/ArmedScholar 304 in 1ms :: {"videos":[{"id":"v4C1YYtCCho"…
+7:34:41 AM [express] GET /api/news/channel/ColionNoir 304 in 1ms :: {"videos":[{"id":"b3p8Xk04uvc","…
+7:34:41 AM [express] GET /api/news/channel/ActiveSelfProtection 304 in 1ms :: {"videos":[{"id":"yHbh…
+7:34:41 AM [express] GET /api/news/channel/dirty-civilian 304 in 1ms :: {"videos":[{"id":"cofxV9RvIM…
+7:34:41 AM [express] GET /api/news/channel/falconclaw_ 304 in 1ms :: {"videos":[{"id":"mkNKCPcsiAM",…
+7:34:41 AM [express] GET /api/news/channel/s2underground 304 in 1ms :: {"videos":[{"id":"uGEV4sVaHf8…
+7:34:41 AM [express] GET /api/news/channel/theGunCollective 304 in 1ms :: {"videos":[{"id":"C0EidCAO…
